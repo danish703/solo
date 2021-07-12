@@ -1,0 +1,30 @@
+/*
+ Theme name: Solo
+ Font Family: Raleway
+ Colors
+  Moon Yellow:#fac613;
+  Grey:#212226
+  white smoke:#f4f4f4;
+  white:#ffffff;
+  black:#000000;
+*/
+
+#preloader{
+    background-color:#ffffff;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#status{
+    background-image: url("../img/loading.gif");
+    position: absolute;
+    width:180px;
+    height: 180px;
+    left:50%;
+    top:35%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
