@@ -1,4 +1,4 @@
-/*
+/* /*
  Theme name: Solo
  Font Family: Raleway
  Colors
@@ -8,6 +8,26 @@
   white:#ffffff;
   black:#000000;
 */
+html,body{
+    height: 100%;
+}
+body{
+    color:#212226;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway";
+}
+p{
+    font-family: "Raleway";
+    font-size:13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section{
+    background: #fff;
+    overflow: hidden;
+}
+
 
 #preloader{
     background-color:#ffffff;
@@ -27,4 +47,55 @@
     top:35%;
     margin-top: -35px;
     margin-left: -35px;
+}
+
+/*****************************
+    Home Section 
+*******************************/
+#home-bg-video{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+} 
+
+#home-overlay{
+   background-color: rgba(0, 0, 0, 0.8);
+   height:100%;
+   width:100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+/*****************************
+    Home Content 
+*******************************/
+#home-content{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+#home-content-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading-1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+#home-heading-1 span{
+    color:#fac613;
+    font-weight: 500;
 }
