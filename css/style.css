@@ -99,3 +99,44 @@ section{
     color:#fac613;
     font-weight: 500;
 }
+
+#home-text p{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 100;
+    margin:8px 0 30px 0;
+}
+
+.btn-general{
+    font-family: "Raleway";
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin:0 6px;
+    padding:12px 46px;
+    -webkit-transition: all .5s;
+    transition: all .5s; 
+}
+
+.btn-home{
+    color:#fff;
+    border:1px solid #fff;
+}
+.btn-home:hover,.btn-home:focus{
+    color:#fff;
+    background-color:#fac613;
+    border:1px solid #fac613;
+}
+
+#arrow-down{
+    position: absolute;
+    left:50%;
+    bottom: 20px;
+    color:#fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index:1;
+}r
