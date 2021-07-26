@@ -300,7 +300,50 @@ ul .social-list{
     background: #e34133;
     border-color: transparent;
 }
-.owl-theme .owl-nav[class*=owl-]:hover{
+.owl-theme .owl-nav [class*=owl-]{
     background: none;
     color: #212226;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* skill */
+.skill{
+    margin-bottom: 20px;
+}
+.skill h4{
+    line-height: 62px;
+    margin: 0px;
+    font-weight: normal;
+}
+.progress{
+height: 25px;
+ border-radius: 0;
+ background: #efefef;
+ overflow: visible;
+}
+.progress-bar{
+    background:#fac613;
+    position: relative;
+}
+
+.progress-bar span{
+    font-size: 11px;
+    font-weight: 100;
+    background: #212226;
+    padding: 3px;
+    position: absolute;
+    z-index: 9;
+    left:90%;
+    top:-20px;
+}
+
+.progress-bar span:before{
+    content: "";
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 23%;
 }
