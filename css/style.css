@@ -347,3 +347,68 @@ height: 25px;
     bottom: -8px;
     left: 23%;
 }
+
+/*statement*/
+#statement{
+    background: url("../img/bgimage/statementbg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+#statement .content-box-lg{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#teach-statement h3{
+    color: #fff;
+    font-size: 28px;
+    line-height: 45px;
+}
+#teach-statement  p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 8px;
+}
+
+/*services*/
+#services-01 img{
+    margin: 60px 0;
+}
+
+.service{
+    margin: 35px 0;
+}
+
+.service .icon{
+    font-size: 42px;
+    margin: 0;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.service:hover .icon{
+    color: #fac613;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+.service h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fac613;
+    font-weight: bold;
+    margin: 0px 0px 6px 0;
+}
+.service:hover h5{
+    color: #212121;
+}
+.service h4{
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 8px;
+}
+.horizontal-heading h5{
+    color: #fac613;
+    font-weight: bold;
+}
+.horizontal-heading h2{
+    font-weight: bold;
+}
