@@ -128,6 +128,17 @@ section{
     border:1px solid #fac613;
 }
 
+.btn-yellow{
+    color:#fff;
+    background-color: #fac613;
+    border:1px solid #fac613;
+}
+.btn-yellow:hover,.btn-yellow:focus{
+    color:#fff;
+    background-color:#212121;
+    border:1px solid #212121;
+}
+
 #arrow-down{
     position: absolute;
     left:50%;
@@ -411,4 +422,64 @@ height: 25px;
 }
 .horizontal-heading h2{
     font-weight: bold;
+}
+
+/*----service tabs --- */
+#serivce-02{
+    background: #f4f4f4;
+}
+
+#services-tabs ul{
+    margin-bottom: 40px;
+}
+#services-tabs ul li{
+    padding:5px 30px;
+}
+
+#services-tabs ul li a{
+    text-decoration: none;
+    font-size:13px;
+    color:#212121;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+}
+#services-tabs ul li.r-tabs-state-active a{
+    color:#fac613;
+    font-weight: 700;
+    border-bottom: 3px solid #fac613;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6{
+    padding: 0;
+}
+.service-tab img{
+    width: 100%;
+    margin:0 auto;
+}
+
+.service-tab .tab-bg{
+    background-color: #fff;
+    padding: 60px 30px;
+    min-height: 480px;
+}
+
+.service-tab h2{
+    font-size: 48px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.service-tab h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-tab p{
+    line-height: 24px;
+    margin-bottom: 30px;
 }

@@ -15,3 +15,7 @@ $(document).ready(function () {
         navText: ['<i class="fas fa-angle-left"></i>','<i class="fas fa-angle-right"></i>']
     });
 });
+
+$('#services-tabs').responsiveTabs({
+    startCollapsed: 'accordion'
+});
