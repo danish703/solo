@@ -483,3 +483,11 @@ height: 25px;
     line-height: 24px;
     margin-bottom: 30px;
 }
+
+#portfolio-wrapper img{
+    width: 100%;
+}
+
+#portfolio .vertical-heading{
+    margin-bottom: 50px;
+}
