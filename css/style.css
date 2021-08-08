@@ -491,3 +491,45 @@ height: 25px;
 #portfolio .vertical-heading{
     margin-bottom: 50px;
 }
+.workgrid .col-md-3{
+    padding:0;
+}
+.porfolio-item a{
+    text-decoration: none;
+}
+.portfolio-item-details h3{
+    text-decoration: none;
+    color: #fac613;
+    font-weight: bold;
+}
+.portfolio-item-details a{
+  text-decoration: none;
+}
+.portfolio-item-details p{
+    color:#000;
+}
+#isotope-filters{
+    margin-bottom: 10px;
+    padding:20px 25px 20px 0;
+}
+#isotope-filters button{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background:transparent;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    padding-right: 35px;
+}
+#isotope-filters button span{
+    display: block;
+    padding-bottom: 5px;
+    -webkit-transition: border-color .4s ease-in-out;
+    transition: border-color .4s ease-in-out;
+
+}
+
+#isotope-filters button.active span{
+    color:#fac613;
+    border-bottom: 3px solid #fac613;
+}
