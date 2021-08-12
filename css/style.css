@@ -139,6 +139,18 @@ section{
     border:1px solid #212121;
 }
 
+.btn-black{
+    color:#fff;
+    background-color: #000;
+    font-weight: bold;
+    border:1px solid #000;
+}
+.btn-black:hover,.btn-black:focus{
+    color:#fff;
+    background-color:#fac613;
+    border:1px solid #fac613;
+}
+
 #arrow-down{
     position: absolute;
     left:50%;
@@ -593,4 +605,95 @@ height: 25px;
 
 #testimonials-slider .fa-angle-left{
     color: #fff;
+}
+
+/*pricing table */
+
+.pricing-table{
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0,0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0,0.1);
+    border-radius: 6px;
+    padding: 32px 21px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+.pricing-table:hover{
+    background: #fac613;
+}
+.pricing-table .type h4{
+    color: #fac613;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.pricing-table .price{
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 24px 0;
+}
+
+.pricing-table .price h2{
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0 0 0 24px;
+}
+.pricing-table .price h2 span.dollar{
+    font-size: 36px;
+    font-weight: 100;
+    left:-20px;
+    top:5px;
+}
+
+.pricing-table .price p{
+    line-height: normal;
+    font-weight: 200;
+    margin: 0;
+    text-align: right;
+    padding: 0;
+    padding-left: 5%;
+}
+
+.pricing-table .package{
+    list-style: none;
+    padding: 20px 0;
+}
+
+.pricing-table .package li{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.pricing-table .package li i{
+    width: 24px;
+}
+
+.pricing-table .btn-yellow,
+.pricing-table .btn-black{
+    width: 96%;
+}
+
+.pricing-table:hover h4,
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul.package{
+    color: #fff;
+}
+
+.pricing-table:hover .btn-yellow{
+    background-color: #f4f4f4;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #f4f4f4;
+}
+
+.pricing-table.black{
+  background: #212226;
+  color: #fff;
+}
+
+.pricing-table.black .type h4{
+    color: #fff;
+}
+.pricing-table.black:hover{
+    background: #fac613;
 }
