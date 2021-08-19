@@ -43,3 +43,16 @@ $(document).ready(function () {
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
     });
 });
+
+$(document).ready(function () {
+    $("#clients-list").owlCarousel({
+        items: 7,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
+    });
+});

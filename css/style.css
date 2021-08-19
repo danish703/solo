@@ -697,3 +697,124 @@ height: 25px;
 .pricing-table.black:hover{
     background: #fac613;
 }
+
+/* stats */
+#stats{
+    background: url("../img/stateimage.png");
+    background-size: cover;
+}
+
+#stats .content-box-md{
+    background: rgba(0, 0, 0, 0.8);
+}
+#stats .vertical-heading h2{
+    color: #fff;
+}
+
+.stats-item{
+    background: rgba(61, 68, 68, 0.6);
+    border-radius: 4px;
+    min-height: 170px;
+    padding:25px 50px;
+}
+
+.stats-item i{
+    font-size: 42px;
+    color: #fac613;
+    margin: 0 0 6px 0;
+}
+
+.stats-item h3{
+    font-size: 32px;
+    color: #fff;
+    margin: 5px 0 5px 0;
+}
+
+.stats-item p{
+    color:#fff;
+    margin:0;
+}
+
+.stats-item:hover{
+    background: #fac613;
+}
+
+.stats-item:hover i{
+    color: white;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+/* clients */
+
+ #clients .horizontal-heading{
+     margin-top: 50px;
+     margin-bottom: 30px;
+     text-transform: uppercase;
+ }
+ #clients-list{
+     padding:45px 0 0 0;
+ }
+ .client img{
+    display: inline-block !important;
+ }
+
+ /*--blog */
+ #blog{
+     background-color: #f4f4f4;
+ }
+
+ #blog-left p{
+     margin:25px 0;
+ }
+
+ .blog-post{
+     background: #fff;
+     padding:20px;
+     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+     border-radius: 6px;
+ }
+ .blog-post h4{
+     line-height: 40px;
+     margin: 0;
+ }
+ .blog-post>p{
+     line-height: 24px;
+     margin: 0;
+     font-weight: 300;
+ }
+ .blog-post a{
+     display: inline-block;
+     margin-top: 25px;
+     text-transform: uppercase;
+     color: #f4c613;
+     font-size: 12px;
+     font-weight: 500;
+     -webkit-transition: all 400ms linear;
+     transition: all 400ms linear;
+ }
+ .blog-post a:hover{
+     color: #212226;
+ }
+ .blog-post .post-meta{
+     border-top:1px solid #e0e0e0;
+     margin-top: 30px;
+     padding-top:10px;
+ }
+ .blog-post .post-meta p{
+  font-size: 12px;
+  list-style:24px;
+  font-weight: 500;
+  margin: 0;
+ }
+
+ .blog-post .post-meta p img{
+     height:50px;
+ }
+
+ .date {
+     float:right;
+     text-align: right;
+     padding-top:10px;
+ }
