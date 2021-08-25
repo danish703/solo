@@ -818,3 +818,60 @@ height: 25px;
      text-align: right;
      padding-top:10px;
  }
+
+ /* contact css */
+ #contact-left p{
+     margin: 25px 0 20px 0;
+ }
+
+ ul.office-details{
+     list-style: none;
+     padding: 0;
+ }
+  ul.office-details li{
+      margin-top: 12px;
+      display: flex;
+  }
+   ul.office-details li i{
+       font-size: 20px;
+       width: 45px;
+   }
+
+   #contact-left ul.social-list li a{
+       color: #212121;
+       border: 1px solid #212226;
+       text-align: center;
+   }
+   #contact-left ul.social-list li a:hover{
+     color: #fff;
+     border-color: transparent;
+   }
+   
+   #contact-right{
+       padding:25px 30px;
+       -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+       border-radius: 4px;
+   }
+
+   #contact-right h4{
+       font-size: 24px;
+   }
+   #contact-right p{
+       margin-bottom: 25px;
+   }
+
+   #contact-right form .form-control{
+       padding:10px 15px;
+       font-size: 12px;
+       line-height: 24px;
+       margin-top:5px;
+   }
+
+   #contact-right form textarea.form-control{
+       min-height: 165px;
+   }
+
+   #contact-right #submit-btn{
+       margin-top: 5px;
+   }
