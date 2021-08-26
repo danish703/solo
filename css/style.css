@@ -875,3 +875,23 @@ height: 25px;
    #contact-right #submit-btn{
        margin-top: 5px;
    }
+
+   #map iframe{
+       width:100%;
+   }
+
+   /*footer*/
+
+   footer{
+       background: #212226;
+       padding:30px;
+   }
+   footer p{
+       color: #fff;
+       line-height: 20px;
+   }
+
+   footer p span{
+       color: #f4c613;
+       font-weight: bold;
+   }
