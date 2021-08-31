@@ -895,3 +895,25 @@ height: 25px;
        color: #f4c613;
        font-weight: bold;
    }
+
+   /*---havbar --*/
+
+   #logo{
+       height: 40px;
+       width: auto;
+   }
+  nav .container-fluid{
+      padding: 0 85px;
+  }
+  .navbar-brand{
+      padding: 13px 15px;
+  }
+  
+
+   ul.navbar-nav>li>a{
+       color:#fff !important;
+       font-size: 13px !important;
+       font-weight: 400;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+   }
