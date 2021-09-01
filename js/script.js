@@ -1,3 +1,4 @@
+
 $(window).on('load', function () {
     $('#status').fadeOut();
     $('#preloader').delay(350).fadeOut();
@@ -55,4 +56,20 @@ $(document).ready(function () {
         dots: false,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
     });
+});
+//scroll effect
+$(function () {
+    showHideNav();
+
+    $(window).scroll(function () {
+        showHideNav();
+    });
+
+    function showHideNav(){
+        if ($(window).scrollTop() > 50) {
+            $("nav").addClass("white-nav-top");
+        } else {
+            $("nav").removeClass("white-nav-top");
+        }
+    }
 });
